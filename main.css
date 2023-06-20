@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(20, 19, 19);
+    height: 90px;  
+    border-style: solid;
+    border-color: rgb(66, 58, 13);
+    opacity: 0.9;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+header nav li a {
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Spectral",'fallback', Helvetica, Arial, sans-serif;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 15px;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+body {
+    background-image: url(./Imagens/BackGround\ darksouls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.lore {
+    background-color: rgba(20, 19, 19, 0.6);
+    margin-right: 300px;
+    margin-left: 300px ;
+    margin-top: 5px;
+    border-style: solid;
+    border-color:rgb(66, 58, 13);
+    box-shadow: 3px 3px rgba(20, 19, 19, 0.8);
+    font-family: "Spectral",'fallback', Helvetica, Arial, sans-serif;
+    color: #b4b2b0;
+}
+
+.lore h2 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.lore p {
+    margin: 20px 20px ;
+    line-height: 1.75;
+}
+
+.lore ul {
+    line-height: 1.75;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.lore img{
+    margin-left: 200px;
+    margin-bottom: -5px;
+    height: 400px;
+}
+
+.form {
+    background-color: rgba(20, 19, 19, 0.6);
+    margin-right: 300px;
+    margin-left: 300px ;
+    border-style: solid;
+    border-top: none;
+    border-color:rgb(66, 58, 13);
+    box-shadow: 3px 3px rgba(20, 19, 19, 0.8);
+    color: #b4b2b0;
+    font-family: "Spectral",'fallback', Helvetica, Arial, sans-serif;
+}
+
+.form h2{
+    padding: 10px;
+    margin-left: 75px;
+}
+
+.form h3 {
+    margin-left: 95px;
+    margin-bottom: 10px;
+}
+
+form input,
+form button {
+    background-color: rgb(20, 19, 19);
+    color: #b4b2b0;
+    border-color: rgb(66, 58, 13);
+    display: block;
+    width: 280px;
+    margin-left: 200px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: "Spectral",'fallback', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+form button {
+    border-style: solid;
+    cursor: pointer;
+}
+
+form button:hover {
+    border-color: rgba(20, 19, 19, 0.8);
+}
+
+input:focus {
+    outline-color: rgb(66, 58, 13);
+}
+
+footer{ 
+    margin-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #b4b2b0;
+    margin-left: 370px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
