@@ -88,8 +88,8 @@ body {
 }
 
 .lore img{
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
     height: 400px;
 }
 
