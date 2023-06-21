@@ -122,8 +122,7 @@ form button {
     border-color: rgb(66, 58, 13);
     display: block;
     width: 280px;
-    margin-left: 200px;
-    margin-bottom: 8px;
+    margin: 0 auto;
     padding: 8px;
     font-family: "Spectral",'fallback', Helvetica, Arial, sans-serif;
     font-size: 15px;
